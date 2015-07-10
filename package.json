@@ -1,0 +1,15 @@
+{
+  "name": "brainy",
+  "version": "1.0.0",
+  "description": "A node module to interface the muse to a arduino",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shishir Ramam",
+  "license": "Apache 2",
+  "dependencies": {
+    "arduino-firmata": "^0.3.2",
+    "osc": "^1.1.2"
+  }
+}
