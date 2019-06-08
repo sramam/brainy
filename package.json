@@ -4,12 +4,16 @@
   "description": "A node module to interface the muse to a arduino",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Shishir Ramam",
   "license": "Apache 2",
   "dependencies": {
     "arduino-firmata": "^0.3.2",
-    "osc": "^1.1.2"
-  }
+    "osc": "^2.2.1",
+    "snyk": "^1.174.1"
+  },
+  "snyk": true
 }
