@@ -10,6 +10,6 @@
   "license": "Apache 2",
   "dependencies": {
     "arduino-firmata": "^0.3.2",
-    "osc": "^1.1.2"
+    "osc": "^2.4.2"
   }
 }
